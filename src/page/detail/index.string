@@ -1,0 +1,34 @@
+ <div class="page-title">
+            <span>{{name}}</span>
+            </div>
+                   <div class="intro-wrap">
+                        <div class="p-img-con">
+                        <div class="main-img-con">
+                        <img class="main-img" id="c_img" src="https://remeberme.oss-cn-beijing.aliyuncs.com/course/00.jpg" alt="{{name}}"/>
+                    </div>
+        </div>i
+        <div class="p-info-con">
+            <!-- <h1 class="p-name">{{name}}</h1>
+            <p class="p-subtitle">{{subtitle}}</p> -->
+            
+            <div class="p-info-item">
+                <span class="info">一身乌黑光亮的羽毛</span>
+            </div>
+            
+            <div class="p-info-item">
+                <a class="btn num-add" id="after">上一个</a>
+                <a class="btn num-sub" id="next">下一个</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="detail-wrap">
+        <div class="detail-tab-con">
+            <ul class="tab-list">
+                <li class="tab-item active">详细描述</li>
+            </ul>
+        </div>
+        <div class="detail-con">
+            {{{detail}}}
+            </div>
+    </div> 
